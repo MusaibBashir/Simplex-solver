@@ -221,7 +221,7 @@ class SimplexSolver:
     def solve_two_phase(self):
         """Solve using Two-Phase Method"""
         st.subheader("Two-Phase Method Solution")
-        
+        st.write("### 2 phase reached")
         # Phase I: Minimize sum of artificial variables
         st.write("### Phase I: Minimize sum of artificial variables")
         
@@ -1665,3 +1665,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
